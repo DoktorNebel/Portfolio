@@ -1,0 +1,1567 @@
+Name = Wurmi;
+Category = Lebensmittel;
+Subcategory = Obst;
+Product = Apfel;
+Quality = Illegal;
+Price = 0.89;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = mit Fleischbeilage;
+
+Name = Plain;
+Category = Lebensmittel;
+Subcategory = Obst;
+Product = Apfel;
+Quality = Cheap;
+Price = 1.01;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = Kann man essen... muss man aber nicht;
+
+Name = Applesun;
+Category = Lebensmittel;
+Subcategory = Obst;
+Product = Apfel;
+Quality = Normal;
+Price = 1.25;
+MinDaysToExpire = 3;
+MaxDaysToExpire = 5;
+Description = En Eppel pör dei kieps se Doktor ewei;
+
+Name = Jobs Choice;
+Category = Lebensmittel;
+Subcategory = Obst;
+Product = Apfel;
+Quality = Premium;
+Price = 1.85;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Dieser Apfel wurde vom Papst persönlich gesegnet;
+
+Name = Armadillo;
+Category = Bad und Kosmetik;
+Subcategory = Toilettenpapier;
+Product = Toilettenpapier;
+Quality = Illegal;
+Price = 2.99;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Hier könnte ihre Beschreibung stehen;
+
+Name = Blitz-Bob;
+Category = Bad und Kosmetik;
+Subcategory = Toilettenpapier;
+Product = Toilettenpapier;
+Quality = Cheap;
+Price = 3.15;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Für die braunen Momente im Leben. Wird in Österreich hergestellt.
+Gute Deutsche kaufen Blitz-Bob.;
+
+Name = Happy End;
+Category = Bad und Kosmetik;
+Subcategory = Toilettenpapier;
+Product = Toilettenpapier;
+Quality = Normal;
+Price = 3.75;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Damit ihr Geschäft ein glückliches Ende nimmt.
+Und immer daran denken alles hat ein Ende nur die Wurst hat 2.;
+
+Name = Silkroad;
+Category = Bad und Kosmetik;
+Subcategory = Toilettenpapier;
+Product = Toilettenpapier;
+Quality = Premium;
+Price = 5.95;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Erleben sie die Seidenstraße für ihr Gesäß. Auch sie können den Touch Asiens fühlen. 
+Lassen sie sich an ihren intimsten Stellen von der Seide Asiens berühren.;
+
+Name = Razer-Os;
+Category = Lebensmittel;
+Subcategory = Weitere Nahrung;
+Product = Cornflakes;
+Quality = Illegal;
+Price = 1.01;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = Mit der empfohlenen Menge an Eisen.;
+
+Name = Butteros;
+Category = Lebensmittel;
+Subcategory = Weitere Nahrung;
+Product = Cornflakes;
+Quality = Cheap;
+Price = 1.21;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 5;
+Description = Butter, der Grundstein einer gesunden, ausgewogenen Ernährung.;
+
+Name = Le Coq Flocon;
+Category = Lebensmittel;
+Subcategory = Weitere Nahrung;
+Product = Cornflakes;
+Quality = Normal;
+Price = 1.49;
+MinDaysToExpire = 3;
+MaxDaysToExpire = 5;
+Description = "Your mother sucks Coqs in hell";
+
+Name = Bio Cornflakes;
+Category = Lebensmittel;
+Subcategory = Weitere Nahrung;
+Product = Cornflakes;
+Quality = Premium;
+Price = 2.09;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Bio is love. Bio is life. Kaufen sie Bio.;
+
+Name = Glowstick;
+Category = Lebensmittel;
+Subcategory = Gemüse;
+Product = Gurken;
+Quality = Illegal;
+Price = 0.59;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = Frisch importiert aus Tschernobyl kann man diese Gurke nicht nur essen, 
+sondern auch eine Kaffemaschine mit ihr betreiben.;
+
+Name = Ugly Betty;
+Category = Lebensmittel;
+Subcategory = Gemüse;
+Product = Gurken;
+Quality = Cheap;
+Price = 0.89;
+MinDaysToExpire = 1;
+MaxDaysToExpire = 3;
+Description = Nur weil sie nicht so schön ist wie andere, macht sie das noch 
+lange nicht zu einer schlechteren Gurke.;
+
+Name = Fat Berta;
+Category = Lebensmittel;
+Subcategory = Gemüse;
+Product = Gurken;
+Quality = Normal;
+Price = 1.19;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = Eine Gurke ist eine Gurke ist eine Gurke...;
+
+Name = Shiny;
+Category = Lebensmittel;
+Subcategory = Gemüse;
+Product = Gurken;
+Quality = Premium;
+Price = 1.39;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Diese Gurke hat sich der Papst persönlich in den Arsch geschoben. 
+Man könnte also sagen, sie ist mit dem heiligen Stuhl in Kontakt gekommen.;
+
+Name = Stonehenge;
+Category = Lebensmittel;
+Subcategory = Brot;
+Product = Weißbrot;
+Quality = Illegal;
+Price = 0.69;
+MinDaysToExpire = 1;
+MaxDaysToExpire = 2;
+Description = Brot aus den Tiefen der Hölle, durch ein satanisches Ritual beschworen.
+Aber immerhin billig.;
+
+Name = Extra-Reif;
+Category = Lebensmittel;
+Subcategory = Brot;
+Product = Weißbrot;
+Quality = Cheap;
+Price = 0.99;
+MinDaysToExpire = 1;
+MaxDaysToExpire = 3;
+Description = Die extra lange Reifezeit dieses Brots ist verantwortlich für sein farbenfrohes
+Äußeres.;
+
+Name = Brot;
+Category = Lebensmittel;
+Subcategory = Brot;
+Product = Weißbrot;
+Quality = Normal;
+Price = 1.21;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = Brot...;
+
+Name = Messias;
+Category = Lebensmittel;
+Subcategory = Brot;
+Product = Weißbrot;
+Quality = Premium;
+Price = 1.49;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Brot hergestellt aus dem Leib Christi persönlich.;
+
+Name = Rattenmilch;
+Category = Getränke;
+Subcategory = Milch;
+Product = Milch;
+Quality = Illegal;
+Price = 0.25;
+MinDaysToExpire = 1;
+MaxDaysToExpire = 2;
+Description = Was für Ratten gut ist, kann für Menschen nicht schlecht sein. 
+Oder?;
+
+Name = Nein-Milch;
+Category = Getränke;
+Subcategory = Milch;
+Product = Milch;
+Quality = Cheap;
+Price = 0.35;
+MinDaysToExpire = 1;
+MaxDaysToExpire = 3;
+Description = Trinkbare Milch von halbwegs glücklichen Kühen, gemolken von 
+halbwegs motivierten Bauern mit halbwegs funktionierenden Maschinen.;
+
+Name = Die Mono Chromatische;
+Category = Getränke;
+Subcategory = Milch;
+Product = Milch;
+Quality = Normal;
+Price = 0.55;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = Milch. 'Nuff said.;
+
+Name = Täubchen;
+Category = Getränke;
+Subcategory = Milch;
+Product = Milch;
+Quality = Premium;
+Price = 0.35;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Léon approved.;
+
+Name = Green Mile;
+Category = Lebensmittel;
+Subcategory = Obst;
+Product = Orangen;
+Quality = Illegal;
+Price = 1.05;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = Ja, sie ist grün! Dürfen Orangen nicht grün sein oder was?! 
+#OrangePrivilege;
+
+Name = Spot;
+Category = Lebensmittel;
+Subcategory = Obst;
+Product = Orangen;
+Quality = Cheap;
+Price = 1.20;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = -seltsame Flecken -nicht perfekt rund 
+4/10 würde nicht essen.;
+
+Name = Orangino;
+Category = Lebensmittel;
+Subcategory = Obst;
+Product = Orangen;
+Quality = Normal;
+Price = 1.39;
+MinDaysToExpire = 3;
+MaxDaysToExpire = 5;
+Description = Eine Orange. Mit Vitaminen und so.;
+
+Name = Orangelium;
+Category = Lebensmittel;
+Subcategory = Obst;
+Product = Orangen;
+Quality = Premium;
+Price = 1.85;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Diese Orange wurde vom Papst höchstpersönlich vergewaltigt.;
+
+Name = Kokclean;
+Category = Bad und Kosmetik;
+Subcategory = Seife;
+Product = Seife;
+Quality = Illegal;
+Price = 0.30;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Irgendetwas kriegt man bestimmt damit sauber. 
+Man muss nur lang genug reiben.;
+
+Name = Knasti Flush;
+Category = Bad und Kosmetik;
+Subcategory = Seife;
+Product = Seife;
+Quality = Cheap;
+Price = 0.60;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Nur für Männer mit starkem Griff geeignet.;
+
+Name = Squirty Soap;
+Category = Bad und Kosmetik;
+Subcategory = Seife;
+Product = Seife;
+Quality = Normal;
+Price = 1.15;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Von Tintenfischen bevorzugt.;
+
+Name = Pro Cleaner;
+Category = Bad und Kosmetik;
+Subcategory = Seife;
+Product = Seife;
+Quality = Premium;
+Price = 3.35;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Eine Seife sie zu knechten, sie alle zu finden, ins Dunkel zu treiben 
+und ewig zu binden.;
+
+Name = Killer-Tomate;
+Category = Lebensmittel;
+Subcategory = Gemüse;
+Product = Tomaten;
+Quality = Illegal;
+Price = 0.59;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = Eine ordentlich verschimmelte Tomate. Vielleicht ist ja jemand 
+verzweifelt genug, sie zu kaufen.;
+
+Name = Trashy;
+Category = Lebensmittel;
+Subcategory = Gemüse;
+Product = Tomaten;
+Quality = Cheap;
+Price = 0.79;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = Gibt schlimmeres.;
+
+Name = Amsterdam Tomato;
+Category = Lebensmittel;
+Subcategory = Gemüse;
+Product = Tomaten;
+Quality = Normal;
+Price = 0.99;
+MinDaysToExpire = 3;
+MaxDaysToExpire = 5;
+Description = Tomate aus Amsterdam, die die Hoffnung nahm;
+
+Name = Totally Bio;
+Category = Lebensmittel;
+Subcategory = Gemüse;
+Product = Tomaten;
+Quality = Premium;
+Price = 1.19;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Diese Tomate wurde von Franziskanermönchen höchstpersönlich gebraut.;
+
+Name = Nukepaste;
+Category = Bad und Kosmetik;
+Subcategory = Zahnpasta;
+Product = Zahnpasta;
+Quality = Illegal;
+Price = 0.35;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Zerstört garantiert jeglichen Zahnbelag. Und wenn man Glück hat, bleiben 
+die Zähne sogar heile.;
+
+Name = Wakodent;
+Category = Bad und Kosmetik;
+Subcategory = Zahnpasta;
+Product = Zahnpasta;
+Quality = Cheap;
+Price = 0.45;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Zahnpasta...;
+
+Name = Aaronal;
+Category = Bad und Kosmetik;
+Subcategory = Zahnpasta;
+Product = Zahnpasta;
+Quality = Normal;
+Price = 0.90;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Morgens Aaronal, abends Aaronal.;
+
+Name = Pretorian Pride;
+Category = Bad und Kosmetik;
+Subcategory = Zahnpasta;
+Product = Zahnpasta;
+Quality = Premium;
+Price = 2.75;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Diese Zahnpasta kann sogar Zähne nachwachsen lassen.;
+
+Name = Crybaby;
+Category = Lebensmittel;
+Subcategory = Gemüse;
+Product = Zwiebeln;
+Quality = Illegal;
+Price = 0.04;
+MinDaysToExpire = 1;
+MaxDaysToExpire = 2;
+Description = Einfach nur zum Heulen;
+
+Name = Semipermeabel;
+Category = Lebensmittel;
+Subcategory = Gemüse;
+Product = Zwiebeln;
+Quality = Cheap;
+Price = 0.15;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = Fadenscheinige Zwiebel die vortäuscht gut zu sein, gesucht in 10 Ländern;
+
+Name = Zwibli;
+Category = Lebensmittel;
+Subcategory = Gemüse;
+Product = Zwiebeln;
+Quality = Normal;
+Price = 0.69;
+MinDaysToExpire = 3;
+MaxDaysToExpire = 5;
+Description = Wer hats erfunden...;
+
+Name = Tears;
+Category = Lebensmittel;
+Subcategory = Gemüse;
+Product = Zwiebeln;
+Quality = Premium;
+Price = 0.99;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Heilige Zwiebel Fledermausmann...;
+
+Name = Granat-Ananas;
+Category = Lebensmittel;
+Subcategory = Obst;
+Product = Ananas;
+Quality = Illegal;
+Price = 1.29;
+MinDaysToExpire = 1;
+MaxDaysToExpire = 2;
+Description = Vorsicht explosiv;
+
+Name = Wadamahaardran;
+Category = Lebensmittel;
+Subcategory = Obst;
+Product = Ananas;
+Quality = Cheap;
+Price = 1.49;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = Nicht schön aber selten aus Wadamahaardran;
+
+Name = Little Nicky;
+Category = Lebensmittel;
+Subcategory = Obst;
+Product = Ananas;
+Quality = Normal;
+Price = 2.11;
+MinDaysToExpire = 3;
+MaxDaysToExpire = 5;
+Description = Sir sie müssen Hitler um 3 Uhr noch eine Ananas in den A...schieben;
+
+Name = Home;
+Category = Lebensmittel;
+Subcategory = Obst;
+Product = Ananas;
+Quality = Premium;
+Price = 2.85;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Wer lebt in ner Ananas ganz tief im Meer;
+
+Name = Japano;
+Category = Lebensmittel;
+Subcategory = Obst;
+Product = Bananen;
+Quality = Illegal;
+Price = 1.25;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = Frische Bananen aus Fukushima;
+
+Name = Fiddlers;
+Category = Lebensmittel;
+Subcategory = Obst;
+Product = Bananen;
+Quality = Cheap;
+Price = 1.45;
+MinDaysToExpire = 1;
+MaxDaysToExpire = 2;
+Description = Grün ist die Farbe der Hoffnung und des Erbrechens;
+
+Name = Sklavito;
+Category = Lebensmittel;
+Subcategory = Obst;
+Product = Bananen;
+Quality = Normal;
+Price = 1.85;
+MinDaysToExpire = 3;
+MaxDaysToExpire = 5;
+Description = Von "freiwilligen" Indios gepflückt;
+
+Name = Long Johns;
+Category = Lebensmittel;
+Subcategory = Obst;
+Product = Bananen;
+Quality = Premium;
+Price = 2.25;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Diese Banane deepthroatete schon der Papst;
+
+Name = Smile;
+Category = Lebensmittel;
+Subcategory = Obst;
+Product = Birnen;
+Quality = Illegal;
+Price = 0.79;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = Attack of the Killer Birne;
+
+Name = Birne Angela;
+Category = Lebensmittel;
+Subcategory = Obst;
+Product = Birnen;
+Quality = Cheap;
+Price = 0.89;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = die Ossi-Birne;
+
+Name = Helmut;
+Category = Lebensmittel;
+Subcategory = Obst;
+Product = Birnen;
+Quality = Normal;
+Price = 1.11;
+MinDaysToExpire = 4;
+MaxDaysToExpire = 6;
+Description = Birnus Normalus;
+
+Name = Chosen One;
+Category = Lebensmittel;
+Subcategory = Obst;
+Product = Birnen;
+Quality = Premium;
+Price = 1.74;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Die heilige Birne liebt der Papst fast so sehr wie kleine Jungen;
+
+Name = Krang;
+Category = Lebensmittel;
+Subcategory = Gemüse;
+Product = Blumenkohl;
+Quality = Illegal;
+Price = 0.89;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = Frisch aus dem Abfall;
+
+Name = Flower Power;
+Category = Lebensmittel;
+Subcategory = Gemüse;
+Product = Blumenkohl;
+Quality = Cheap;
+Price = 1.01;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = Flower Power;
+
+Name = Kohlera;
+Category = Lebensmittel;
+Subcategory = Gemüse;
+Product = Blumenkohl;
+Quality = Normal;
+Price = 1.25;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Der Normale unter den Blumenkohlen;
+
+Name = Inquisit;
+Category = Lebensmittel;
+Subcategory = Gemüse;
+Product = Blumenkohl;
+Quality = Premium;
+Price = 1.79;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Geweiht dem Heiligen Incestus;
+
+Name = Scandale de France;
+Category = Lebensmittel;
+Subcategory = Käse;
+Product = Camembert;
+Quality = Illegal;
+Price = 0.59;
+MinDaysToExpire = 1;
+MaxDaysToExpire = 2;
+Description = Man kann nie genug Skandale haben;
+
+Name = Nein-Camembert;
+Category = Lebensmittel;
+Subcategory = Käse;
+Product = Camembert;
+Quality = Cheap;
+Price = 0.69;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = Lerne Nein zu sagen;
+
+Name = Original de France;
+Category = Lebensmittel;
+Subcategory = Käse;
+Product = Camembert;
+Quality = Normal;
+Price = 0.99;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = So weiß und cremig wie...;
+
+Name = Mon Dieu;
+Category = Lebensmittel;
+Subcategory = Käse;
+Product = Camembert;
+Quality = Premium;
+Price = 1.59;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Mon dieu ist der sündhaft gut;
+
+Name = Der Grüne;
+Category = Lebensmittel;
+Subcategory = Käse;
+Product = Emmentaler;
+Quality = Illegal;
+Price = 0.09;
+MinDaysToExpire = 1;
+MaxDaysToExpire = 2;
+Description = Grünländer mit extra viel Schimmel;
+
+Name = Österreichs Bester;
+Category = Lebensmittel;
+Subcategory = Käse;
+Product = Emmentaler;
+Quality = Cheap;
+Price = 0.29;
+MinDaysToExpire = 1;
+MaxDaysToExpire = 3;
+Description = Österreichs bester, da kann kein Schweizer mithalten;
+
+Name = Das Original;
+Category = Lebensmittel;
+Subcategory = Käse;
+Product = Emmentaler;
+Quality = Normal;
+Price = 0.64;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = Schweizer Emmentaler, besser als Österreich;
+
+Name = Der Biologische;
+Category = Lebensmittel;
+Subcategory = Käse;
+Product = Emmentaler;
+Quality = Premium;
+Price = 1.24;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Von Heidi und Ziegenpeter selbst produziert;
+
+Name = Die Gelbe;
+Category = Lebensmittel;
+Subcategory = Wurst;
+Product = Gelbwurst;
+Quality = Illegal;
+Price = 0.19;
+MinDaysToExpire = 1;
+MaxDaysToExpire = 2;
+Description = Fleischwurst mit gelber Deckfarbe;
+
+Name = Gelbe Scheiben;
+Category = Lebensmittel;
+Subcategory = Wurst;
+Product = Gelbwurst;
+Quality = Cheap;
+Price = 0.39;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = Dünn wie die Seiten eines Telefonbuches und genauso fad;
+
+Name = Die Pfiffige;
+Category = Lebensmittel;
+Subcategory = Wurst;
+Product = Gelbwurst;
+Quality = Normal;
+Price = 0.79;
+MinDaysToExpire = 3;
+MaxDaysToExpire = 5;
+Description = Pfeift gut danach;
+
+Name = Gelb Deluxe;
+Category = Lebensmittel;
+Subcategory = Wurst;
+Product = Gelbwurst;
+Quality = Premium;
+Price = 1.09;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = in feinster Blattgoldumhüllung;
+
+Name = Grünländer Gouda;
+Category = Lebensmittel;
+Subcategory = Käse;
+Product = Gouda;
+Quality = Illegal;
+Price = 0.40;
+MinDaysToExpire = 1;
+MaxDaysToExpire = 2;
+Description = voll grünem Schimmel;
+
+Name = Der Afrikanische;
+Category = Lebensmittel;
+Subcategory = Käse;
+Product = Gouda;
+Quality = Cheap;
+Price = 0.70;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = Handgefertigt von südafrikanischen Kindern;
+
+Name = Der Holländer;
+Category = Lebensmittel;
+Subcategory = Käse;
+Product = Gouda;
+Quality = Normal;
+Price = 1.00;
+MinDaysToExpire = 3;
+MaxDaysToExpire = 5;
+Description = Holländer Weedkäse;
+
+Name = Gouda Gold;
+Category = Lebensmittel;
+Subcategory = Käse;
+Product = Gouda;
+Quality = Premium;
+Price = 1.30;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Tachyonen bestrahlt;
+
+Name = Knuspi;
+Category = Lebensmittel;
+Subcategory = Gemüse;
+Product = Karotten;
+Quality = Illegal;
+Price = 0.79;
+MinDaysToExpire = 1;
+MaxDaysToExpire = 2;
+Description = Die Knusperstange von Hamstern umgefärbt;
+
+Name = Soylent Green;
+Category = Lebensmittel;
+Subcategory = Gemüse;
+Product = Karotten;
+Quality = Cheap;
+Price = 0.99;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = Mit der ganz besonderen Zutat;
+
+Name = K-Rotten;
+Category = Lebensmittel;
+Subcategory = Gemüse;
+Product = Karotten;
+Quality = Normal;
+Price = 1.19;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Ranzig aber genießbar;
+
+Name = Hasenfreund;
+Category = Lebensmittel;
+Subcategory = Gemüse;
+Product = Karotten;
+Quality = Premium;
+Price = 1.49;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Des Papstes heiliges Stück;
+
+Name = Knoblaach;
+Category = Lebensmittel;
+Subcategory = Gemüse;
+Product = Knoblauch;
+Quality = Illegal;
+Price = 0.40;
+MinDaysToExpire = 1;
+MaxDaysToExpire = 2;
+Description = Genmanipulierter Knoblauch aus Holland;
+
+Name = Van Helsing;
+Category = Lebensmittel;
+Subcategory = Gemüse;
+Product = Knoblauch;
+Quality = Cheap;
+Price = 0.60;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = Van Helsings Choice;
+
+Name = Transylvania;
+Category = Lebensmittel;
+Subcategory = Gemüse;
+Product = Knoblauch;
+Quality = Normal;
+Price = 0.75;
+MinDaysToExpire = 4;
+MaxDaysToExpire = 6;
+Description = Frisch aus Rumänien;
+
+Name = Flatulenza;
+Category = Lebensmittel;
+Subcategory = Gemüse;
+Product = Knoblauch;
+Quality = Premium;
+Price = 1.35;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Der Geruch frischer Fürze bringt Würze;
+
+Name = Das Grauen;
+Category = Lebensmittel;
+Subcategory = Wurst;
+Product = Leberwurst;
+Quality = Illegal;
+Price = 0.75;
+MinDaysToExpire = 1;
+MaxDaysToExpire = 2;
+Description = samt Madeneinlage;
+
+Name = DKMN;
+Category = Lebensmittel;
+Subcategory = Wurst;
+Product = Leberwurst;
+Quality = Cheap;
+Price = 0.80;
+MinDaysToExpire =2;
+MaxDaysToExpire = 4;
+Description = Herkunftslos;
+
+Name = Syltwalder Leberwurst;
+Category = Lebensmittel;
+Subcategory = Wurst;
+Product = Leberwurst;
+Quality = Normal;
+Price = 0.99;
+MinDaysToExpire = 4;
+MaxDaysToExpire = 6;
+Description = Von Glücklichen Ostfriesen;
+
+Name = Entenhausener Leberwurst;
+Category = Lebensmittel;
+Subcategory = Wurst;
+Product = Leberwurst;
+Quality = Premium;
+Price = 1.49;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Enthält Ente;
+
+Name = Altes Land;
+Category = Lebensmittel;
+Subcategory = Wurst;
+Product = Mettwurst;
+Quality = Illegal;
+Price = 0.19;
+MinDaysToExpire = 1;
+MaxDaysToExpire = 2;
+Description = So alt und hart, damit können sie ihren Nachbarn erschlagen;
+
+Name = Hausmacher;
+Category = Lebensmittel;
+Subcategory = Wurst;
+Product = Mettwurst;
+Quality = Cheap;
+Price = 0.39;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = Selbst in der Kasse produziert;
+
+Name = Syltwalder Mettwurst;
+Category = Lebensmittel;
+Subcategory = Wurst;
+Product = Mettwurst;
+Quality = Normal;
+Price = 0.79;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = aus frischen Ostfriesen;
+
+Name = Bio Mett;
+Category = Lebensmittel;
+Subcategory = Wurst;
+Product = Mettwurst;
+Quality = Premium;
+Price = 1.09;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Allerbestes Tofu;
+
+Name = Die Ranzige;
+Category = Lebensmittel;
+Subcategory = Wurst;
+Product = Salami;
+Quality = Illegal;
+Price = 0.34;
+MinDaysToExpire = 1;
+MaxDaysToExpire = 2;
+Description = die Ranzige;
+
+Name = Black Beauty;
+Category = Lebensmittel;
+Subcategory = Wurst;
+Product = Salami;
+Quality = Cheap;
+Price = 0.54;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = magere Pferdefleischsalami;
+
+Name = Schweinsteiger;
+Category = Lebensmittel;
+Subcategory = Wurst;
+Product = Salami;
+Quality = Normal;
+Price = 0.75;
+MinDaysToExpire = 4;
+MaxDaysToExpire = 6;
+Description = bayerische Schweinesalami mit Schwalbengarantie;
+
+Name = Taurus;
+Category = Lebensmittel;
+Subcategory = Wurst;
+Product = Salami;
+Quality = Premium;
+Price = 0.94;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Mit echten Stierhoden;
+
+Name = Der Stark Pigmentierte;
+Category = Lebensmittel;
+Subcategory = Käse;
+Product = Schimmel;
+Quality = Illegal;
+Price = 0.49;
+MinDaysToExpire = 1;
+MaxDaysToExpire = 2;
+Description = mit schwarzem Schimmel;
+
+Name = Hamburg Blue;
+Category = Lebensmittel;
+Subcategory = Käse;
+Product = Schimmel;
+Quality = Cheap;
+Price = 0.59;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = mit Rum aus der Ritze;
+
+Name = Rauschfort;
+Category = Lebensmittel;
+Subcategory = Käse;
+Product = Schimmel;
+Quality = Normal;
+Price = 0.99;
+MinDaysToExpire = 4;
+MaxDaysToExpire = 6;
+Description = Grüner Schimmelkäse;
+
+Name = All in One;
+Category = Lebensmittel;
+Subcategory = Käse;
+Product = Schimmel;
+Quality = Premium;
+Price = 1.39;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = der ultimative Genuß;
+
+Name = Der Glasige;
+Category = Lebensmittel;
+Subcategory = Wurst;
+Product = Schinkenwurst;
+Quality = Illegal;
+Price = 0.25;
+MinDaysToExpire = 1;
+MaxDaysToExpire = 2;
+Description = knirscht beim Kauen;
+
+Name = Formschön;
+Category = Lebensmittel;
+Subcategory = Wurst;
+Product = Schinkenwurst;
+Quality = Cheap;
+Price = 0.29;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = aus schönem Formfleisch;
+
+Name = Sau Gut;
+Category = Lebensmittel;
+Subcategory = Wurst;
+Product = Schinkenwurst;
+Quality = Normal;
+Price = 0.49;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = bewährter Hinterschinken;
+
+Name = Kleine Ferkelei;
+Category = Lebensmittel;
+Subcategory = Wurst;
+Product = Schinkenwurst;
+Quality = Premium;
+Price = 0.89;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = aus neugeborenen Ferkeln;
+
+Name = Cheval de Troie;
+Category = Lebensmittel;
+Subcategory = Tiefkühlnahrung;
+Product = Pizza;
+Quality = Cheap;
+Price = 1.25;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = mit Pferdefleisch garniert;
+
+Name = Extra Knusprig;
+Category = Lebensmittel;
+Subcategory = Tiefkühlnahrung;
+Product = Pizza;
+Quality = Illegal;
+Price = 0.89;
+MinDaysToExpire = 1;
+MaxDaysToExpire = 2;
+Description = Mit kleinen Holzstücken zum Knuspern;
+
+Name = Beethoven;
+Category = Lebensmittel;
+Subcategory = Tiefkühlnahrung;
+Product = Pizza;
+Quality = Normal;
+Price = 1.60;
+MinDaysToExpire = 4;
+MaxDaysToExpire = 6;
+Description = Nur echt aus dem Steinofen;
+
+Name = Galaxy;
+Category = Lebensmittel;
+Subcategory = Tiefkühlnahrung;
+Product = Pizza;
+Quality = Premium;
+Price = q.80;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = von Bewohnern des Planeten Melmac empfohlen;
+
+Name = Bierra Falsa;
+Category = Getränke;
+Subcategory = Alkoholisches;
+Product = Bier;
+Quality = Illegal;
+Price = 0.25;
+MinDaysToExpire = 1;
+MaxDaysToExpire = 2;
+Description = Gefärbtes Wasser;
+
+Name = Kotzplörre;
+Category = Getränke;
+Subcategory = Alkoholisches;
+Product = Bier;
+Quality = Cheap;
+Price = 0.50;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = Lässt man sich gerne nochmal durch den Kopf gehen;
+
+Name = Flaschbier;
+Category = Getränke;
+Subcategory = Alkoholisches;
+Product = Bier;
+Quality = Normal;
+Price = 0.89;
+MinDaysToExpire = 4;
+MaxDaysToExpire = 6;
+Description = Führt zu Halluzinationen über Russen im Keller.;
+
+Name = Mönchsbräu;
+Category = Getränke;
+Subcategory = Alkoholisches;
+Product = Bier;
+Quality = Premium;
+Price = 1.00;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Lässt sie lachen wie einen katholischen Priester auf einem Ministrantenausflug;
+
+Name = Inflammable;
+Category = Bad und Kosmetik;
+Subcategory = Shampoo;
+Product = Shampoo;
+Quality = Illegal;
+Price = 0.30;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = mit Terpentin;
+
+Name = Bad Hair Day;
+Category = Bad und Kosmetik;
+Subcategory = Shampoo;
+Product = Shampoo;
+Quality = Cheap;
+Price = 0.50;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Für alle die kein Geld für einen Friseur haben;
+
+Name = Smella;
+Category = Bad und Kosmetik;
+Subcategory = Shampoo;
+Product = Shampoo;
+Quality = Normal;
+Price = 0.89;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = beliebt bei Möchtegern Casanovas;
+
+Name = Cleopatra;
+Category = Bad und Kosmetik;
+Subcategory = Shampoo;
+Product = Shampoo;
+Quality = Premium;
+Price = 1.30;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = seidenes Haar und Sklaven der Traum einer jeden Frau;
+
+Name = Alaska Sour;
+Category = Lebensmittel;
+Subcategory = Tiefkühlnahrung;
+Product = Eis;
+Quality = Illegal;
+Price = 0.30;
+MinDaysToExpire = 1;
+MaxDaysToExpire = 2;
+Description = kann Spuren von Salzsäure enthalten;
+
+Name = Langnase;
+Category = Lebensmittel;
+Subcategory = Tiefkühlnahrung;
+Product = Eis;
+Quality = Cheap;
+Price = 0.55;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = sieht lecker aus, schmeckt aber zum...;
+
+Name = Tom&Jerrys;
+Category = Lebensmittel;
+Subcategory = Tiefkühlnahrung;
+Product = Eis;
+Quality = Normal;
+Price = 0.89;
+MinDaysToExpire = 4;
+MaxDaysToExpire = 6;
+Description = manchmal spielt das Leben eben gern Katz und Maus;
+
+Name = Höl dir das;
+Category = Lebensmittel;
+Subcategory = Tiefkühlnahrung;
+Product = Eis;
+Quality = Premium;
+Price = 1.40;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = der pure Konsum, jetzt als Eis;
+
+Name = Flipper;
+Category = Lebensmittel;
+Subcategory = Tiefkühlnahrung;
+Product = Fischstäbchen;
+Quality = Illegal;
+Price = 0.40;
+MinDaysToExpire = 1;
+MaxDaysToExpire = 2;
+Description = hergestellt aus Delfinen, jetzt kann jedes Kind Flipper in sich haben;
+
+Name = Ihklo;
+Category = Lebensmittel;
+Subcategory = Tiefkühlnahrung;
+Product = Fischstäbchen;
+Quality = Cheap;
+Price = 0.83;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = jetzt mit der Extraportion Antibiotika, für einen gesunden Tag;
+
+Name = Käptn Fischkopp;
+Category = Lebensmittel;
+Subcategory = Tiefkühlnahrung;
+Product = Fischstäbchen;
+Quality = Normal;
+Price = 0.95;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = ich hatt doch die Fischvergiftung, vom Seelachs;
+
+Name = Davy Jones;
+Category = Lebensmittel;
+Subcategory = Tiefkühlnahrung;
+Product = Fischstäbchen;
+Quality = Premium;
+Price = 1.13;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = fühlen sie sich wie ein Mitglied der Flying Dutchman;
+
+Name = Hart&Knusprig;
+Category = Lebensmittel;
+Subcategory = Tiefkühlnahrung;
+Product = Kroketten;
+Quality = Illegal;
+Price = 0.39;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = Holzspanstücke sorgen für den unvergleichlichen Geschmack;
+
+Name = Special One;
+Category = Lebensmittel;
+Subcategory = Tiefkühlnahrung;
+Product = Kroketten;
+Quality = Cheap;
+Price = 0.59;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = mit Käsefüllung. Läuft aus wie eine alte Windel;
+
+Name = SonnyKrokett;
+Category = Lebensmittel;
+Subcategory = Tiefkühlnahrung;
+Product = Kroketten;
+Quality = Normal;
+Price = 0.89;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = die Hitze von Miami im Ofen;
+
+Name = Croquette de Luxe;
+Category = Lebensmittel;
+Subcategory = Tiefkühlnahrung;
+Product = Kroketten;
+Quality = Premium;
+Price = 1.55;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = handgemacht von indonesischen Kinderarbeitern;
+
+Name = De Bois;
+Category = Lebensmittel;
+Subcategory = Tiefkühlnahrung;
+Product = Pommes;
+Quality = Illegal;
+Price = 0.89;
+MinDaysToExpire = 1;
+MaxDaysToExpire = 2;
+Description = mit französischer Kiefer;
+
+Name = Längsgeröstet;
+Category = Lebensmittel;
+Subcategory = Tiefkühlnahrung;
+Product = Pommes;
+Quality = Cheap;
+Price = 1.00;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = es ist nicht die Größe sondern die Bewegung auf die es ankommt;
+
+Name = McCoin;
+Category = Lebensmittel;
+Subcategory = Tiefkühlnahrung;
+Product = Pommes;
+Quality = Normal;
+Price = 1.30;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = mit einer echten Münze als Überraschung für die Kinder;
+
+Name = Pommes de Luxe;
+Category = Lebensmittel;
+Subcategory = Tiefkühlnahrung;
+Product = Pommes;
+Quality = Premium;
+Price = 1.60;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = die Adelsfamilie unter den Pommes;
+
+Name = Troliven;
+Category = Lebensmittel;
+Subcategory = Obst;
+Product = Weintrauben;
+Quality = Illegal;
+Price = 0.65;
+MinDaysToExpire = 1;
+MaxDaysToExpire = 2;
+Description = das neueste Genexperiment: Trauben gekreuzt mit Oliven;
+
+Name = Traubenix;
+Category = Lebensmittel;
+Subcategory = Obst;
+Product = Weintrauben;
+Quality = Cheap;
+Price = 0.89;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = gallische Trauben;
+
+Name = Bravo Traube;
+Category = Lebensmittel;
+Subcategory = Obst;
+Product = Weintrauben;
+Quality = Normal;
+Price = 1.30;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = die Traube die zum Spielen animiert;
+
+Name = Elsäßer Trauben;
+Category = Lebensmittel;
+Subcategory = Obst;
+Product = Weintrauben;
+Quality = Premium;
+Price = 1.60;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = das Blut ehemaliger Kriegsgefangener sorgt für dein einzigartigen Geschmack;
+
+Name = Ethylov;
+Category = Getränke;
+Subcategory = Alkoholisches;
+Product = Wodka;
+Quality = Illegal;
+Price = 0.89;
+MinDaysToExpire = 1;
+MaxDaysToExpire = 2;
+Description = lässt sie blind werden vor Geschmack;
+
+Name = Vorgesternov;
+Category = Getränke;
+Subcategory = Alkoholisches;
+Product = Wodka;
+Quality = Cheap;
+Price = 1.50;
+MinDaysToExpire = 2;
+MaxDaysToExpire = 4;
+Description = ertränken sie ihre Erinnerungen;
+
+Name = Sibirov;
+Category = Getränke;
+Subcategory = Alkoholisches;
+Product = Wodka;
+Quality = Normal;
+Price = 1.75;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Hart wie ein sibirisches Strafgefangenen Lager;
+
+Name = Putinov;
+Category = Getränke;
+Subcategory = Alkoholisches;
+Product = Wodka;
+Quality = Premium;
+Price = 2.20;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = die trinkbare Allmachtsfantasie;
+
+Name = EST News;
+Category = Schreibwaren;
+Subcategory = Zeitschriften;
+Product = Zeitschriften;
+Quality = Illegal;
+Price = 0.40;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Copyright? Was ist Copyright?;
+
+Name = Bausatz;
+Category = Schreibwaren;
+Subcategory = Zeitschriften;
+Product = Zeitschriften;
+Quality = Cheap;
+Price = 0.89;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = der neueste Schrei aus den USA, mach es dir selbst, also die Zeitschrift nicht das was du denkst...;
+
+Name = Der Stürmer;
+Category = Schreibwaren;
+Subcategory = Zeitschriften;
+Product = Zeitschriften;
+Quality = Normal;
+Price = 1.20;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Fussballzeitung aus Österreich;
+
+Name = Monopoli;
+Category = Schreibwaren;
+Subcategory = Zeitschriften;
+Product = Zeitschriften;
+Quality = Premium;
+Price = 2.50;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = die Zeitschrift für das Higher Managment;
+
+Name = Rote Artikel Fraktion;
+Category = Schreibwaren;
+Subcategory = Zeitung;
+Product = Zeitung;
+Quality = Illegal;
+Price = 0.25;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Nachrichten die einschlagen wie eine Bombe. Aus dem Baader Verlag.;
+
+Name = Blöd;
+Category = Schreibwaren;
+Subcategory = Zeitung;
+Product = Zeitung;
+Quality = Cheap;
+Price = 0.35;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Wir bilden eure Meinung;
+
+Name = die Frankfurter Unabhängige;
+Category = Schreibwaren;
+Subcategory = Zeitung;
+Product = Zeitung;
+Quality = Normal;
+Price = 0.89;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = das große FU in Frankfurt;
+
+Name = Extrabreit;
+Category = Schreibwaren;
+Subcategory = Zeitung;
+Product = Zeitung;
+Quality = Premium;
+Price = 1.30;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Ellenlange Artikel in unverständlichem, hochnäsigen Deutsch, für den Hobby Philologen;
+
+Name = Crazy Horse;
+Category = Getränke;
+Subcategory = Energy Drinks;
+Product = Energy Drinks;
+Quality = Normal;
+Price = 0.89;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = keine Panik, der Schaum vor dem Mund ist normal;
+
+Name = Moscow;
+Category = Getränke;
+Subcategory = Alkopops;
+Product = Alkopops;
+Quality = Normal;
+Price = 1,40;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = drink or go Gulak;
+
+Name = Camel Toe;
+Category = Sonderartikel;
+Subcategory = Zigaretten;
+Product = Zigaretten;
+Quality = Cheap;
+Price = 1,85;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Die Zigarettenmarke mit Nachdruck. Spüren sie den Zeh des Kamels. 
+Für die Leggins-Träger der Gesellschaft.;
+
+Name = Hiro Shima;
+Category = Sonderartikel;
+Subcategory = Zigaretten;
+Product = Zigaretten;
+Quality = Normal;
+Price = 2,35;
+MinDaysToExpire = 5;
+MaxDaysToExpire = 7;
+Description = Die Zigarette die besonders lange und hell glüht. Strahlen auch sie mit dieser Marke.;
+
+Name = Hanfpaket;
+Category = Drogen;
+Subcategory = Drogen;
+Product = Drogen;
+Quality = Cheap;
+Price = 100.00;
+MinDaysToExpire = 500;
+MaxDaysToExpire = 700;
+Description = der Jolly am Morgen vertreibt Kummer und Sorgen;
+
+Name = Frühstück;
+Category = Drogen;
+Subcategory = Drogen;
+Product = Drogen;
+Quality = Normal;
+Price = 250.00;
+MinDaysToExpire = 500;
+MaxDaysToExpire = 700;
+Description = Das Frühstück ist die wichtigste Mahlzeit des Tages.;
+
+Name = Blue Meth;
+Category = Drogen;
+Subcategory = Drogen;
+Product = Drogen;
+Quality = Premium;
+Price = 500.00;
+MinDaysToExpire = 500;
+MaxDaysToExpire = 700;
+Description = "It's just basic chemistry";
+

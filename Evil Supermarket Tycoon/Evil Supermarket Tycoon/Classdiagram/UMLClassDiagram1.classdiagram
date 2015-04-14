@@ -1,0 +1,524 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="698a64bb-9701-445e-9152-37ee83632492" name="UMLClassDiagram1" linkedPackageId="12666263-a15f-4489-8c46-936711630c6a" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="1896106d-0cbb-4ae3-bdd8-6bec8d71a274" name="Entity" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="01a72770-6655-4bd4-a4b5-5d2a04e1492b" />
+        <ownedAttributesInternal>
+          <property Id="eea9a6c6-1208-432d-a5cc-205520749aa0" name="Sprites" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e7d69eec-ff59-46f9-8166-61ab6044f94b" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="88b14828-0ae1-4438-8bda-9aa29bf12a88" name="Draw" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="0a29842a-bcb8-44ed-af76-5d230ed26348" />
+          </operation>
+          <operation Id="bb8470c0-a5c3-49a4-9ff1-e87eed9a93be" name="Update" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="4b69263f-c573-49cd-bafd-741bf2e14a0f" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="f3092adf-c63a-4c94-a447-8bb50ada3b69" name="Game" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e4317f69-d8ef-4053-911f-6ef28e7b15df" />
+        <suppliersInternal>
+          <dependency Id="01e62d0c-37d3-4b42-bb4e-b487da5ac787">
+            <classMoniker Id="df349167-af13-4eb1-9058-739d03a28102" LastKnownName="Input" />
+            <elementDefinition Id="0657a673-06fe-4ed4-99e7-851de3d979df" />
+          </dependency>
+          <dependency Id="57d65a16-5975-4d36-a13d-bf2bb584f9c7">
+            <classMoniker Id="0193eba6-d933-4738-ac72-01a549175308" LastKnownName="GameData" />
+            <elementDefinition Id="3b0e7218-79e9-4d9e-9bf8-81ed4fe9f120" />
+          </dependency>
+          <dependency Id="e8415d4b-a8e5-45f5-9482-1c0bd8e9d003">
+            <classMoniker Id="ef3ec64d-322c-4695-8113-746c1ce1fa50" LastKnownName="UI" />
+            <elementDefinition Id="0f11b08b-3ba0-4c91-ada7-c7b361a0de1a" />
+          </dependency>
+          <dependency Id="ecf934c3-35b4-4d25-ab92-5220d20221ef">
+            <classMoniker Id="5fc29e8a-5d0f-4823-b275-5f3fd5b93f3a" LastKnownName="PeopleGenerator" />
+            <elementDefinition Id="6cf93324-eb46-455c-9d01-cc2e6e19292a" />
+          </dependency>
+          <dependency Id="90158a1a-daf7-4f40-bc00-b501439038df">
+            <classMoniker Id="9989fed8-57ca-4fa0-b9ba-0bfabd830adc" LastKnownName="TexturePool" />
+            <elementDefinition Id="849e620c-2461-4649-9ffa-25438bade68e" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property Id="5b3c9644-8d57-430d-8068-1844d671fd25" name="UI" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b447a1a7-2d92-4b15-b132-1c1ab53844e1" />
+          </property>
+          <property Id="ef693063-c41b-43a7-9b00-17e6d952d6db" name="Input" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7a0cc588-a11e-4f4f-8abd-0387a2a39d98" />
+          </property>
+          <property Id="82b0ad66-7a4c-4839-ab54-dc4c8c465b26" name="GameData" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="47b5c959-398a-4c61-860c-17db546613da" />
+          </property>
+          <property Id="2006ebd6-defd-4478-aaec-bd63a5b68b42" name="ProductList" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4e930d42-b860-46c1-a26d-aa8d64473886" />
+          </property>
+          <property Id="c8ea83fe-576f-428b-a021-dfdf4c5980bb" name="TexturePool" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="39d19ff6-1103-4548-8104-5b9261a3eb82" />
+          </property>
+          <property Id="cdcc10c0-0a88-40c0-be9f-ed1fac2d661e" name="GameState" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a66d0cae-5336-4e2b-ab3a-5af1dacb9540" />
+          </property>
+          <property Id="683099c7-0a0f-48d2-879a-9e5f58c729c3" name="Stores" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d24b95da-2e92-47b7-b5c8-1cbbd98e5a3b" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="c5b219ba-caa2-422d-84c9-4691f2afac62" name="Update" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d2cb3106-2822-478a-9abc-f14f39d88e33" />
+          </operation>
+          <operation Id="db93de1f-d79f-4fca-a625-45a7972f9565" name="Draw" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="f65ca526-32fb-4618-9d4a-af61500fc7c9" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="df349167-af13-4eb1-9058-739d03a28102" name="Input" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="79bece01-b2e8-4023-acab-90ed1003496d" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="0193eba6-d933-4738-ac72-01a549175308" name="GameData" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="db08f108-3b14-473e-8707-37288324c50d" />
+        <ownedAttributesInternal>
+          <property Id="deb06f2d-3a93-40e2-88dd-911f50294a6e" name="Money" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="aa974b58-5723-45b6-9e2b-47e3bf65e6b2" />
+          </property>
+          <property Id="b8cd3d4a-c688-4f90-b09d-c47e9c7e5ccb" name="TimeOfDay" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="06bf11e1-7d55-456a-a2fe-2770e72423f3" />
+          </property>
+          <property Id="86c95dce-bdb3-413a-8a53-bd150dcf7b29" name="Customers" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7b6e70b5-7bc7-411e-b8d0-01fc499d344c" />
+          </property>
+          <property Id="ced27bd2-a32c-4984-bd9d-9da360d7fe6a" name="Date" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2b51c4c5-75e9-4e24-a1b1-c9aaf4615c64" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="39b67d27-49e1-436c-89af-3d1e0310308c" name="StoreObject" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="a4033649-09b0-4a09-8469-f29d9e27fc54" />
+        <generalsInternal>
+          <generalization Id="4dbd5574-1939-4e16-837c-d03d1fac2967" isSubstitutable="false">
+            <classMoniker Id="1896106d-0cbb-4ae3-bdd8-6bec8d71a274" LastKnownName="Entity" />
+            <elementDefinition Id="1e21d45a-cd66-40a5-9e0a-8dfa60b6ace8" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="e580fe1a-a8c4-49d1-8d8a-6c95fd4136ac" name="Width" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b0b7ec07-5ac7-403c-b0a8-3fa208100f08" />
+          </property>
+          <property Id="488278f7-e7ba-4151-8fb5-8290d2a60b78" name="Height" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c049eb0b-4faa-46d0-82fb-2f119338e8ab" />
+          </property>
+          <property Id="2715b44a-573b-44a6-a2d3-4b63e2dc584b" name="Products" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c35afd39-3dec-4083-bd36-935029d06b36" />
+          </property>
+          <property Id="08b1b7bf-51a0-4acc-98bf-24ce753b4309" name="AccessPoints" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f86384ee-a639-4254-86b0-0ad58df2cd03" />
+          </property>
+          <property Id="ea9aaae3-4812-4e84-9125-e9fc0774baff" name="ObjectType" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="cbf6f7e0-2da4-4b04-b7e1-ebc27d73a1e1" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="d208939e-2fbe-4200-9fef-4c2fbd312c5d" name="Person" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b496f19c-2847-4f73-a2a8-71c4a8d142df" />
+        <generalsInternal>
+          <generalization Id="0909dc63-d769-4742-90e6-5193a5101141" isSubstitutable="false">
+            <classMoniker Id="1896106d-0cbb-4ae3-bdd8-6bec8d71a274" LastKnownName="Entity" />
+            <elementDefinition Id="e836c9a9-c05c-4a0a-a5a9-617535b36f32" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="e9e6f5fd-2fad-44d1-9ac1-d6f84ddeb610" name="Name" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0177a672-5ea6-44f2-82e5-ce66587e2519" />
+          </property>
+          <property Id="87541f49-9cdf-462a-ae00-ffada345a5ab" name="Age" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9c1d8ac8-651e-48c1-8aa3-57e5abf83f40" />
+          </property>
+          <property Id="c3a03d6f-c431-46f3-b067-2b5773b88d1c" name="Happiness" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="17209136-9c30-44aa-a7ce-1d5a76a7ddc6" />
+          </property>
+          <property Id="323bbac8-cdb7-438a-a1b6-54a79a2ba68e" name="ID" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="21ce1c6c-217b-4760-a958-89b1c9884ad8" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="ae761f8b-b1e9-4735-862e-4b7d903f7216" name="Move" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="7eb0d916-c8a0-433e-a6a0-13bf6898b808" />
+          </operation>
+          <operation Id="3515e2ba-c4a1-4a67-9f8b-c6e324dd44db" name="FindPath" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="7fd9d11a-bd0b-4ac6-b05a-082ae42afd86" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b756c65c-8bd2-4295-9eae-043bef8e752a" name="Worker" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="1a029880-377a-401b-b709-4abb4a2f846c" />
+        <generalsInternal>
+          <generalization Id="e9fbe431-cd1d-464f-9f01-57e52809ce5b" isSubstitutable="false">
+            <classMoniker Id="d208939e-2fbe-4200-9fef-4c2fbd312c5d" LastKnownName="Person" />
+            <elementDefinition Id="93f746d8-702c-472a-8fd9-d4da2b2c8822" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="91b9ba7c-3f12-4b61-b440-da4f70cdddf0" name="Wage" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="53e6aa07-a975-43f7-b495-50aabee9ff0d" />
+          </property>
+          <property Id="091080b1-a57c-4ec8-a504-a841b2f0d292" name="WorkerType" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="fd679209-a499-4b3c-aac6-0c1044fc30a5" />
+          </property>
+          <property Id="a4fa17d6-6015-4eb7-8bdb-180ca889df2b" name="WorkDays" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9200f513-89b9-4596-b176-caf140131a46" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="64fc65f8-e3c9-492d-b3b4-cc42f2b84879" name="Customer" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="2e24f81a-598c-4bd2-ac7b-1e2d2a10fcd7" />
+        <generalsInternal>
+          <generalization Id="07039c0e-d453-4c84-abe3-5219dc8eb2e8" isSubstitutable="false">
+            <classMoniker Id="d208939e-2fbe-4200-9fef-4c2fbd312c5d" LastKnownName="Person" />
+            <elementDefinition Id="e46dff67-025b-4059-8f37-f1dfd4193ab5" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="0d75b438-64c7-49f6-bd65-46d428673bfe" name="ShoppingList" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f8e56c60-1d7b-49dd-8ba2-b084a7c61f44" />
+          </property>
+          <property Id="6332ff2d-8b39-4347-b568-60cce5d14084" name="ShoppingCart" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="136f9a33-26b2-4678-b18e-a0fab0fd6eff" />
+          </property>
+          <property Id="d6525114-a3ef-459a-81a5-3e22910624b0" name="Money" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0badd29b-cac8-453e-8d88-ec593bfbacfc" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="ef3ec64d-322c-4695-8113-746c1ce1fa50" name="UI" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d5b9e547-05c5-4625-996e-37be713c2f22" />
+        <suppliersInternal>
+          <dependency Id="797c6c30-6920-4ca5-adb7-3607b4688c14">
+            <classMoniker Id="5b7d378d-3379-4b89-8fb9-d6fd62f9dfb3" LastKnownName="UIWindow" />
+            <elementDefinition Id="f8c138be-6721-41a3-af18-847b9c4d8552" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property Id="5456a86d-48d2-4a85-91ef-dbba2a364445" name="BuildWindow" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="60ec70fd-c42d-459d-be82-722f7afa66d4" />
+          </property>
+          <property Id="f2261658-a554-43c9-bf00-327267e5aa87" name="WorkersWindow" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5844983a-f2c5-40fe-9ba4-063a5a229b01" />
+          </property>
+          <property Id="23ae7576-aac2-4930-8966-1555df49a138" name="StorageWindow" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="bd97cf09-19a1-49fa-85d7-aa72ab55c872" />
+          </property>
+          <property Id="52602d83-7d2b-4592-adda-2b86369c6261" name="DataWindow" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9019dd4a-5ea4-4bc8-9ad8-e5f41f812402" />
+          </property>
+          <property Id="5903d3be-be52-4829-974e-0b51fa85b3cc" name="DetailsWindow" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="313b3250-dacb-42d8-8358-6c4994aa753b" />
+          </property>
+          <property Id="29baea1d-580f-4119-8093-6e33f160e19b" name="MoneyWindow" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5ccad9f9-92d9-43a7-9d49-9e2b036747f3" />
+          </property>
+          <property Id="f42155fd-e206-4190-852c-f989547516e2" name="SelectedEntity" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="28b24b13-6f22-4a94-8937-23ad32b17a6c" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="b8338c20-8b16-4ee2-9f92-462712179476" name="Draw" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="95818f54-78a4-47c8-8e84-51a9ef04d347" />
+          </operation>
+          <operation Id="7cf36361-469e-4ec5-988d-9170af10da26" name="Update" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="0e337d6e-2bdb-4819-9cf3-009925264cdd" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <enumeration Id="e7b0c104-51fb-443d-aefd-551dc7d6f408" name="Type" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8aca7dba-7ed8-44f7-84ae-56d6cc4dcd4e" />
+        <suppliersInternal>
+          <dependency Id="c518bd59-b329-4d84-8c4e-5313332d723d">
+            <classMoniker Id="39b67d27-49e1-436c-89af-3d1e0310308c" LastKnownName="StoreObject" />
+            <elementDefinition Id="3f1526f9-df3b-4cf8-94d7-744206dc0053" />
+          </dependency>
+        </suppliersInternal>
+        <ownedLiterals>
+          <enumerationLiteral Id="acfb4069-de66-4f26-9971-7e9405afe619" name="Shelf">
+            <elementDefinition Id="5f6b6528-579e-4a1d-b0c2-11510d221e77" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="c5b91120-3bfb-4214-b683-9ef2cfc1d956" name="Checkout">
+            <elementDefinition Id="6c86e24e-c6f7-43a4-b16c-d39a532c5d46" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="81588a3e-97a5-4763-b7f1-81ccf3dc53e4" name="Wall">
+            <elementDefinition Id="645b8ec1-03a3-4dd3-ac9d-f9e776b344c9" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="10115320-aafc-4465-96c4-cf60da6d7b4b" name="Ground">
+            <elementDefinition Id="90193023-06bc-46b3-af6c-72aba8c3f63c" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="6e6a7bb6-98be-45f1-bf6f-0bad994e66d0" name="Fridge">
+            <elementDefinition Id="569b7353-6593-476c-9954-0072ecdb51ef" />
+          </enumerationLiteral>
+        </ownedLiterals>
+      </enumeration>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="f6809e6b-c327-4976-a62e-c89b1ce6d662" name="Storage" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="28a74bf0-35c6-468c-bd2b-c0b07da585e4" />
+        <suppliersInternal>
+          <dependency Id="ca5cb995-5b21-4c42-a65d-338f5b29bbb1">
+            <classMoniker Id="10185d8c-927c-43f5-bf19-d72e7ae4d43a" LastKnownName="Store" />
+            <elementDefinition Id="b4b0623a-d247-4a8c-8c6d-160b7b3ac481" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property Id="34c47246-b570-416b-b3c4-419908c3106a" name="Products" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ff771466-9309-42fc-bf6a-530d545c3544" />
+          </property>
+          <property Id="d016385f-8fca-4cc9-8a77-f4d9e012ca37" name="Contracts" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1a42d029-dd37-4e5f-b821-0ada1b0da98d" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="dad620da-112e-4d81-9c78-203a2fc01fd7" name="Contract" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="cf513a32-e4bb-4171-a8f7-1f5975d978eb" />
+        <suppliersInternal>
+          <dependency Id="9f8e4a0d-fbc2-4655-b070-20335a6f31cd">
+            <classMoniker Id="f6809e6b-c327-4976-a62e-c89b1ce6d662" LastKnownName="Storage" />
+            <elementDefinition Id="c5cd8d6b-1022-4e36-b8c3-a4b2ac6b90a6" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property Id="78ada2ec-8047-47e8-9e7b-7b2443caf401" name="Product" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0794b56e-fe2f-471a-bb08-e9d3ce0c544a" />
+          </property>
+          <property Id="aedae2a4-2cd5-4a4c-ada7-59a0aa678e61" name="Amount" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="bbca99d8-5c0c-4581-8bcc-3d73fba2dd52" />
+          </property>
+          <property Id="6ec7c74b-94d0-479e-b48d-9a7ac779a6c5" name="Price" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a7508e1e-29b6-44c5-ba40-22898a596098" />
+          </property>
+          <property Id="0e379d17-5fb7-4697-b8fc-bcd78dbb01ad" name="Delivery" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="45c9053c-2bb2-4784-8297-5516e4c1f002" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="55e7b685-7219-4a66-b006-af2da110eef5" name="Product" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3a3365ae-431f-4ccc-a151-d8c3584c5c61" />
+        <suppliersInternal>
+          <dependency Id="a8411dc1-9e5d-4d7f-b456-9c8d1144db2c">
+            <classMoniker Id="f6809e6b-c327-4976-a62e-c89b1ce6d662" LastKnownName="Storage" />
+            <elementDefinition Id="9852473e-b517-4618-9fee-f644dd858464" />
+          </dependency>
+          <dependency Id="27ff4de9-4a90-44a0-9800-d4fd8bd1919d">
+            <classMoniker Id="dad620da-112e-4d81-9c78-203a2fc01fd7" LastKnownName="Contract" />
+            <elementDefinition Id="de9e3e4c-b161-4e30-bf74-f10bf4862896" />
+          </dependency>
+          <dependency Id="b9dab649-258f-4fa1-b791-f98d7c55f19d">
+            <classMoniker Id="39b67d27-49e1-436c-89af-3d1e0310308c" LastKnownName="StoreObject" />
+            <elementDefinition Id="f9a7dd5b-d3ef-48be-8845-3d147a30905f" />
+          </dependency>
+          <dependency Id="67114fb9-eea9-472d-a411-7877abf3d7b6">
+            <classMoniker Id="64fc65f8-e3c9-492d-b3b4-cc42f2b84879" LastKnownName="Customer" />
+            <elementDefinition Id="391d98ac-b4ee-41cc-99f1-17bfcd35ced9" />
+          </dependency>
+          <dependency Id="9ae7058c-d326-421b-aaf2-226900b62a45">
+            <classMoniker Id="f3092adf-c63a-4c94-a447-8bb50ada3b69" LastKnownName="Game" />
+            <elementDefinition Id="3bac36f5-b757-4cf5-9e40-645e6f54baa4" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property Id="16401e56-3757-4b2f-b11c-4dc530b23e5d" name="Name" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d68e0711-5afb-4da4-b22c-2750dd008435" />
+          </property>
+          <property Id="93b0f35e-5a3e-411c-b75b-697588b4ec57" name="Price" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9e0f319e-0093-4599-8ef8-bf6eaa8361b6" />
+          </property>
+          <property Id="31d3b3a3-189c-4904-a05f-6eeaa7381dc1" name="ExpirationDate" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ba7218c7-1bf3-4597-b220-085e1d80498c" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="df29ae96-7b5a-40c6-bf3a-2bfa88eb4f2d" name="Draw" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="f1b9de3e-75ce-40c1-abd7-902a2b814a7c" />
+          </operation>
+          <operation Id="7bc84ea7-3dcc-420e-9f93-9af5ee26c6ff" name="Update" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="4aac1d80-5ffa-43a0-9c4d-ecc0a84cbe98" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <enumeration Id="a419aab7-c4c7-470c-9c10-1a5a62ff60ba" name="Type" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="415ccaf9-2f60-4ba3-9a67-d7a05ee6bb26" />
+        <suppliersInternal>
+          <dependency Id="21debd4d-0ea1-453d-a21b-cbcc6aa9f7f8">
+            <classMoniker Id="b756c65c-8bd2-4295-9eae-043bef8e752a" LastKnownName="Worker" />
+            <elementDefinition Id="6f20b89b-5f44-4c17-a8a6-c3f7efc452e1" />
+          </dependency>
+        </suppliersInternal>
+        <ownedLiterals>
+          <enumerationLiteral Id="c149c637-8ded-4a94-a7e4-30d92aebe1c3" name="Cashier">
+            <elementDefinition Id="249b0405-b21c-4643-a664-172857915765" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="c32c13a8-4eab-4717-9618-65aabff10321" name="Storage">
+            <elementDefinition Id="6646e71c-b535-496c-9ea2-e8be3a61f075" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="74ad9817-d728-48fa-867a-c35712604e97" name="Security">
+            <elementDefinition Id="7fe992d6-521a-4f47-8c04-34502718ef97" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="0c7da42f-d515-4c66-a375-dd68a9efd604" name="Cleaning">
+            <elementDefinition Id="5422ca49-c74e-4b34-b1dc-b8d19ecc3fb8" />
+          </enumerationLiteral>
+        </ownedLiterals>
+      </enumeration>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="5b7d378d-3379-4b89-8fb9-d6fd62f9dfb3" name="UIWindow" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b8a1134b-15ba-4581-b99c-7a765b814d0c" />
+        <ownedAttributesInternal>
+          <property Id="92465ed3-3ee1-4f90-bb1e-2ef0e5f04885" name="Sprite" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="bd9419d4-e659-479d-8033-c38e915f6940" />
+          </property>
+          <property Id="1630e288-193b-4192-b7d2-c6a5cb0e8d88" name="Open" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0574ed06-7a29-4a33-a768-f3c99d6f9a17" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="5b3ea79b-c791-437b-b555-81a05d244581" name="Draw" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="8d72b862-c225-4293-9fad-2cfe237c1fb1" />
+          </operation>
+          <operation Id="752f8a00-3bef-4a9c-8f6c-8a2bf4913e41" name="Update" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="8dfb35be-efa2-4be9-80d2-27ffd698bb82" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="5fc29e8a-5d0f-4823-b275-5f3fd5b93f3a" name="PeopleGenerator" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b3e03653-334d-49e5-8939-4fd3f715e5b0" />
+        <ownedOperationsInternal>
+          <operation Id="24554ac5-c21d-4adb-924f-168033773525" name="GenerateCustomer" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="e0a4a7e2-d78d-45a4-b698-30d40421aeee" />
+          </operation>
+          <operation Id="27eaa7a8-0451-4a10-b99c-64cddd250982" name="GenerateWorker" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="e3f139ac-a1c6-49d4-8e35-88ce2260ebc4" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9989fed8-57ca-4fa0-b9ba-0bfabd830adc" name="TexturePool" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5544073d-9c9a-4b8d-a4ba-82eb75d26487" />
+        <ownedAttributesInternal>
+          <property Id="dff3ecab-4d27-420f-afd2-e46ad24e2dc8" name="PeopleTextures" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="58a92a93-0a7b-44b9-97d7-8850fbceae14" />
+          </property>
+          <property Id="a7a5e819-ae6c-4cd2-9032-2ab643534e7a" name="ObjectTextures" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ee220d1c-c5d8-4565-bb32-f9764795ca3a" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <enumeration Id="3dd0acd8-e5cc-43b9-88c8-d8b96f49ddd3" name="State" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9c89caf3-266c-4064-806d-ddec1c14590d" />
+        <suppliersInternal>
+          <dependency Id="e23af7a6-1998-4ade-9b06-bc28a2cea93d">
+            <classMoniker Id="f3092adf-c63a-4c94-a447-8bb50ada3b69" LastKnownName="Game" />
+            <elementDefinition Id="ed05c5d0-d6a7-4b60-b278-52c0a780c83e" />
+          </dependency>
+        </suppliersInternal>
+        <ownedLiterals>
+          <enumerationLiteral Id="a413d73a-eae7-4dcb-b242-389aeccbd7fd" name="MainMenu">
+            <elementDefinition Id="998732ee-771c-446d-92a1-4ebefc19e78c" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="1e70e2c7-6d3c-432a-8755-d42e038e8142" name="Intro">
+            <elementDefinition Id="a209a427-fc84-4d66-8178-46e9a157d99b" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="3a116693-3f09-40de-80c3-93d821750745" name="Game">
+            <elementDefinition Id="ed092b12-804c-43ac-83dc-95126d0eb7b6" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="a53ad6ae-4739-454d-a219-fe8aea3f4b41" name="Pause">
+            <elementDefinition Id="37fd72cc-f081-4a6c-932b-ccb7538bef10" />
+          </enumerationLiteral>
+        </ownedLiterals>
+      </enumeration>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="10185d8c-927c-43f5-bf19-d72e7ae4d43a" name="Store" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="455a88cf-dade-442a-a4e5-6001f55299b8" />
+        <suppliersInternal>
+          <dependency Id="dbfec125-9f1f-4793-947e-8d3c7bdc0b7f">
+            <classMoniker Id="f3092adf-c63a-4c94-a447-8bb50ada3b69" LastKnownName="Game" />
+            <elementDefinition Id="1e7b9740-cb55-46de-98e3-ffe45537d04e" />
+          </dependency>
+          <dependency Id="75ad6de7-ba88-4468-81e4-8939ac7634ac">
+            <classMoniker Id="1896106d-0cbb-4ae3-bdd8-6bec8d71a274" LastKnownName="Entity" />
+            <elementDefinition Id="5cbed743-73e2-468c-9a63-da8d8cfe7174" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property Id="e1301ebc-4d53-4c4c-8e7f-50305d16530b" name="Entities" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1b7a4bf9-7882-44ce-8665-7f13b68ecd28" />
+          </property>
+          <property Id="d2dd23a9-8d28-49ae-afd7-66fd9230f761" name="KnownCustomers" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6ecbc6bb-59c8-41ed-ad8d-5115eade1ddc" />
+          </property>
+          <property Id="a893289e-a947-4cf3-97d5-fbdd77bcfaac" name="Storage" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="89992f57-561e-497b-a8c4-037e7d422fdb" />
+          </property>
+          <property Id="30a36e86-0731-47fb-8b5f-ef98673ab2cc" name="Grid" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="dbf6f8d8-f247-4693-9e4e-5168e8a2ad8d" />
+          </property>
+          <property Id="4c582842-d549-47c4-bd6c-f87d6afda1b2" name="ProductList" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="11ac7444-b911-47fc-b8b9-9aed449ad7e5" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="218f89c1-63ed-4930-ba8a-145b8fa10404" name="Draw" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="143c415d-87a0-4806-bd40-15ad624c7436" />
+          </operation>
+          <operation Id="0daef869-d82f-4759-aea4-aac0844141e3" name="Update" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="afae0c41-0f91-4617-85b7-52735bc69643" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="12666263-a15f-4489-8c46-936711630c6a" name="Classdiagram">
+    <elementDefinition Id="3a22ff56-ab9b-4c98-b722-d6c2503b6ff1" />
+    <profileInstances>
+      <packageHasProfileInstances Id="d5d800ca-2882-4fd6-b51f-c66b9f86735c">
+        <profileInstance Id="3b418fce-0631-47e5-b3ff-ad6ad51d5e4f" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="93db99b6-6f55-43dd-a504-256dc7b2e4ee">
+        <profileInstance Id="6c5c1305-1365-42ca-b84f-dd945100625d" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>
